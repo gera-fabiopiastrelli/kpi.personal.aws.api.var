@@ -1,0 +1,18 @@
+{
+  "profiles": {
+    "Mock Lambda Test Tool": {
+      "commandName": "Executable",
+      "commandLineArgs": "--port 8080",
+      "workingDirectory": ".\\bin\\$(Configuration)\\netcoreapp3.1",
+      "executablePath": "%USERPROFILE%\\.dotnet\\tools\\dotnet-lambda-test-tool-3.1.exe",
+      "environmentVariables": {
+        "EventsSecret": "40BF96C2B8564574BBFEACD345BDA2A2",
+        "ApiBaseAddress": "http://localhost/sgi.api.producao2/api/",
+        "ApiUser": "0",
+        "ApiPassword": "0",
+        "AppClientId": "EscritorioVirtual",
+        "AppClientSecret": "P6LJKF7SPZTL7O5ANJH9U50AARUS8JZ9WZHAPDA4"
+      }
+    }
+  }
+}
